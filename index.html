@@ -10,15 +10,57 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    .frame{
+      margin:5em auto;
+      padding: 0.8rem;
+      max-width:15rem;
+      border-radius: 15px;
+      box-shadow: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #ffffff;
+    }
+
+    .frame img{
+      width: 100%;
+      object-fit:cover;
+      border-radius: 15px;
+      
+    }
+    
+    body{
+      background-color: hsl(212, 45%, 89%);
+    }
+    .discription{
+      text-align: center;
+      
+    }
+    .discription h3{
+
+      font-family: sans-serif;
+      font-weight: 700;
+    }
+    .discription p{
+      font-size: 0.9rem;
+      font-family: sans-serif;
+      font-weight: 400;
+      color:hsl(220, 15%, 55%);
+    }
+  
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  <div class="frame">
+      <img src="./images/image-qr-code.png" alt="image-qr-code">
+    <div class="discription">
+      <h3>Improve your front-end skills by building projects</h3>
+      <p>Scan the QR code to visit Frontend Mentor and take coding skills to the next level</p>
+    </div>
+  </div>
+  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
